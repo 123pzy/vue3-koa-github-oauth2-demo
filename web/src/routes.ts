@@ -1,6 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router';
 import Index from './components/Index.vue';
-import Hello from './components/Hello.vue';
+import Redirect from './components/Redirect.vue';
 import type { RouteRecordRaw } from 'vue-router';
 
 const routes: RouteRecordRaw[] = [
@@ -10,9 +10,9 @@ const routes: RouteRecordRaw[] = [
     component: Index,
   },
   {
-    path: '/hello',
-    name: 'hello',
-    component: Hello,
+    path: '/oauth/redirect',
+    name: 'redirect',
+    component: Redirect,
   },
 ];
 const router = createRouter({

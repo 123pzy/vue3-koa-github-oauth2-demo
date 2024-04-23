@@ -3,9 +3,9 @@
 </template>
 
 <script lang="ts" setup>
-const client_id = '63q4dq7bedcd86soava1'; // 替换成自己的
+const client_id = '922127eb1402e210792b'; // 替换成自己的
 const authorize_uri = 'https://github.com/login/oauth/authorize';
-const redirect_uri = 'http://localhost:8080/oauth/redirect'; // 重定向地址
+const redirect_uri = 'http://localhost:5173/oauth/redirect'; // 重定向地址
 
 function loginToGithub() {
   // 页面跳转
